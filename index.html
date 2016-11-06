@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Random Quote Machine">
+    <meta name="author" content="Parth Modi">
+
+    <title>Local Weather App</title>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+ 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&amp;subset=latin-ext" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.0/flexboxgrid.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <div class="row">
+    <div class="col-sm-12 text-center header-styles">
+       <h1>Local Weather App</h1>
+    </div>
+    <div id="error_block header-styles" class="col-sm-12 text-center set_icon">
+      <h3>Please share location or check your network connection.</h3>
+    </div>
+    <div id="icon_block" class="col-sm-12 text-center">
+      <div class="weather-icon icon">
+        <div id="cloud_target" class="cloud set_icon"></div>
+        <div id="sun_target" class="sun set_icon">
+          <div class="rays"></div>
+        </div>
+        <div id="lightning_target" class="lightning set_icon">
+          <div class="bolt"></div>
+          <div class="bolt"></div>
+        </div>
+        <div id="snow_target" class="snow set_icon">
+          <div class="flake"></div>
+          <div class="flake"></div>
+        </div>
+        <div id="rain_target" class="rain set_icon"></div>
+      </div>
+    </div>
+    <div id="data_block" class="col-sm-12 text-center header-styles">
+      <h2 class="weather-city"></h2>
+      <div class="row">
+        <div class="col-sm-5 text-right header-styles">
+          <h3 class="weather-temp"></h3>
+        </div>
+        <div class="col-sm-2 text-center"><h3 class="weather-unit"></h3></div>
+        <div class="col-sm-5 text-left header-styles"> 
+          <h3><button id="convert" class="btn btn-small btn-success convert convert-f">Convert</button></h3>
+        </div>
+      </div>
+       
+      <h3 class="weather-text"></h3>
+    </div>
+    
+    
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-12 text-center header-styles">
+      <p>&copy; 2016 Made in India, with lots of <i class="fa fa-heart custom-font-color" aria-hidden="true"></i> by PARTH</p>
+    </div>
+  </div>
+<!--   ----------------------------------------------- -->
+<!--   <div class="icon sun-shower">
+    <div class="cloud"></div>
+    <div class="sun" >
+      <div class="rays"></div>
+    </div>
+    <div class="rain"></div>
+  </div> -->
+<!-- 
+<div class="icon thunder-storm">
+  <div class="cloud"></div>
+  <div class="lightning">
+    <div class="bolt"></div>
+    <div class="bolt"></div>
+  </div>
+</div>
+
+<div class="icon cloudy">
+  <div class="cloud"></div>
+  <div class="cloud"></div>
+</div>
+
+<div class="icon flurries">
+  <div class="cloud"></div>
+  <div class="snow">
+    <div class="flake"></div>
+    <div class="flake"></div>
+  </div>
+</div>
+
+<div class="icon sunny">
+  <div class="sun">
+    <div class="rays"></div>
+  </div>
+</div>
+
+<div class="icon rainy">
+  <div class="cloud"></div>
+  <div class="rain"></div>
+</div> -->
+<!--   ----------------------------------------------- -->
+  <!-- Bootstrap core JavaScript
+================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
+</body>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+      <script src="js/index.js"></script>
+
+</body>
+</html>

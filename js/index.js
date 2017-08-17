@@ -44,7 +44,7 @@ function showWeather(loc){
   var longitude=loc.coords.longitude;
   var API_KEY="21c4f50af85f2987b324dd1cb61b49cb"; 
   $.ajax({
-    url: "http://api.openweathermap.org/data/2.5/weather?lat=" +lattitude +"&lon=" + longitude +"&units=metric&APPID=" +API_KEY,
+    url: "https://api.openweathermap.org/data/2.5/weather?lat=" +lattitude +"&lon=" + longitude +"&units=metric&APPID=" +API_KEY,
     type: "GET",
     data: {},
     headers: {},
